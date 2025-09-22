@@ -1,1 +1,12 @@
-sadasdsad
+package,import,func, Printf,Println,{},;
+.gitignore 파일생성 (*exe)
+git merge 브랜치명
+git reset
+
+리눅스 명령어
+cp 원본파일 복사본파일
+
+go 명령어
+go mod init 프로젝트 파일명
+go run 파일명.go
+go build 파일명.go
