@@ -6,9 +6,24 @@ import (
 )
 
 func main() {
-	fmt.Println(reflect.TypeOf(2.31))
-	fmt.Println(reflect.TypeOf("go developer~"))
-	fmt.Println(reflect.TypeOf('A'))
-	fmt.Println(reflect.TypeOf(true))
-	fmt.Println(reflect.TypeOf(91))
+	// var name string
+	// var id int
+
+	// name = "Kim Inha"
+	// id = 1000
+
+	// fmt.Println(name, reflect.TypeOf(name))
+	// fmt.Println(id, reflect.TypeOf(id))
+
+	// var name string = "Kim Inha"
+	// var id int = 1000
+
+	// var name = "Kim Inha"
+	// var id = 1000
+
+	name := "Kim Inha"
+	id := 1000
+
+	fmt.Println(name, reflect.TypeOf(name))
+	fmt.Println(id, reflect.TypeOf(id))
 }
